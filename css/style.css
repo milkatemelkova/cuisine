@@ -1,0 +1,151 @@
+.body{
+    overflow-x:hidden;
+}
+.bg-custom {
+    background-color: #000;
+    color:#fff;
+}
+
+.custom-font {
+    font-family: 'Patua One', cursive;
+    font-size: 30px !important;
+}
+
+.carousel-indicators li {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin: 1px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #0009;
+    background-color: rgba(0, 0, 0, 0);
+    border: 2px solid #ffff;
+    border-radius: 50%;
+}
+
+.carousel-indicators .active {
+    width: 12px;
+    height: 12px;
+    margin: 0;
+    background-color: #ffff;
+}
+
+ .carousel-caption {
+    position: absolute;
+    right: 0;
+    left: 0;
+    z-index: 10;
+    color: #fff;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.4);
+} 
+.lobster{
+    font-family: 'Lobster', cursive; 
+    font-size: 30px;
+}
+#resutarant-info{
+    /* position: relative ;
+    background: url("../img/pexels-photo-1640774.jpeg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    position: relative; */
+    position: relative;
+    background: url("../img/pexels-photo-1640774.jpeg");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    text-align: center;
+    color:#ffff;
+}
+.dark-overlay{
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height: 100%;
+    background:rgba(0,0,0,0.5); 
+}
+#testimony{
+    position: relative;
+    min-height: 500px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    text-align: center;
+    color:#ffff;
+    overflow: hidden;
+  
+}
+.testimony-overlay{
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height: 100%;
+    background:rgba(0,0,0,0.5);
+    z-index:-1;
+}
+.testimony-img{
+    position: absolute;
+    top:0;
+    left:0;
+    z-index:-2;
+}
+.quote-img{
+    width: 100px;
+    height: 100px;
+    
+}
+.chef-img{
+    width: 400px;
+    height: 500px;
+    overflow: hidden;
+    margin: 10px;
+    ;
+   
+}
+#main-footer{
+    background: #000;
+    color:#fff;
+}
+
+
+@media only screen and (min-width:768px){
+body{
+    margin:0;
+}
+.bg-custom {
+        position: absolute;
+        background:none;
+        width: 100%;;
+ }
+ .navbar a{
+     color:#000 !important;
+    
+ }
+ .navbar-nav a{
+     color:#fff !important;
+     font-size: 20px;
+ }
+#recipe{
+    margin:0;
+    width:60%;
+    float:right;    
+}
+.carousel{
+    margin:0 !important;
+  
+}
+.carousel-item {
+    height: 700px;
+}
+#restaurant-video{
+    clear:both;
+}
+#restaurant-img{
+    max-height:690px;
+}
+#resutarant-info{
+    min-height: 200px;
+}
+}
